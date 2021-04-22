@@ -1,1 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.contenedor {
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.numero {
+  font-size: 150px;
+  text-align: center;
+}
+
+.simbolo1 {
+  font-size: 100px;
+  margin-left: 15px;
+}
+
+.simbolo2 {
+  font-size: 100px;
+  transform: rotate(180deg);
+  margin-top: 50px;
+  margin-right: 15px;
+}
